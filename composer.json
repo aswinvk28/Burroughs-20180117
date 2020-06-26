@@ -1,0 +1,29 @@
+{
+    "name": "aswin.vijayakumar/burroughs-test-app",
+    "description": "Burroughs Test Payment Date Identification App",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aswin Vijayakumar",
+            "email": "aswinvk28@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "2.8.*",
+        "phpoffice/phpexcel": "1.8.1",
+        "codeception/codeception": "2.3.7",
+        "sensio/generator-bundle": "^3.1@dev"
+    },
+    "minimum-stability": "dev",
+    "vendor-dir": "vendor",
+    "require-dev": {
+        "symfony/framework-standard-edition": "2.8.2"
+    },
+    "autoload": {
+        "psr-4": {"PaymentBundle\\": "src/PaymentBundle"}
+    },
+    "config": {
+        "use-include-path": true
+    },
+    "include-path": ["includes/"]
+}
